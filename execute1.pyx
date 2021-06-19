@@ -62,6 +62,7 @@ class runexp:
         self.res_slsqp=[]
         self.res_trust=[]
         self.steps_dqn=[]
+        print('generate preloadong data')
   #gen_pre_data(self, num_tests, iter_per_test, input_shape):      
         BS.gen_pre_data(num_tests, iter_per_test )
         
@@ -111,13 +112,15 @@ class runexp:
             BS.gen_initial_solution()
             BS.fL()
             BS.fU()
-            s1= BS.applySLSQP(slsqp_iter)
+            #s1= BS.applySLSQP(slsqp_iter)
             self.res_slsqp.append(s1)
               #print('SQSLP done ', s1)
+            s1=0
             print('s1 ', s1);
             
             BS.gen_initial_solution()
-            s2= BS.applytrust1(slsqp_iter)#(slsqp_iter)
+            #s2= BS.applytrust1(slsqp_iter)#(slsqp_iter)
+            s2=0
             self.res_trust.append(s2)
             BS.gen_initial_solution()
             BS.fL()
