@@ -1,1 +1,1 @@
-# DQN_NOMA
+U. F. Siddiqi, S. M. Sait and M. Uysal, "Deep Reinforcement Based Power Allocation for the Max-Min Optimization in Non-Orthogonal Multiple Access," in IEEE Access, vol. 8, pp. 211235-211247, 2020, doi: 10.1109/ACCESS.2020.3038923.
